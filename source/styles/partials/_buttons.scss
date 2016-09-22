@@ -1,0 +1,25 @@
+.btn {
+  border-top: 4px solid #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #18cfab;
+  padding: 18px 28px;
+  margin-bottom: 30px;
+  &:hover, &:focus {
+    background-color: #11a588;
+    border: none;
+    border-top: 4px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  @include phones {
+    margin-bottom: 128px;
+  }
+}

@@ -1,0 +1,40 @@
+
+.trigger {
+  min-height: 476px;
+  background-color: #25333c;
+  text-align: center;
+}
+
+.news {
+  min-height: 962px;
+}
+.entry {
+  margin: 15px;
+  border: 1px solid #777777;
+}
+.teasers {
+  min-height: 367px;
+}
+.teaser__item {
+  text-align: center;
+  line-height: 360px;
+  width: 100%;
+}
+.teaser__inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.teaser__item--odd {
+  background-color: #1c2a33;
+  border-top: 7px solid #18cfab;
+}
+
+.teaser__item--even {
+  background-color: #18cfab;
+  border-top: 7px solid #ffffff;
+}
+
+.teasers--statistic .teaser__item--even {
+  border-top: 7px solid #1c2a33;
+}

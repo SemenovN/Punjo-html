@@ -2,6 +2,11 @@
 @import "partials/base";
 
 // Partials
+@import "partials/typography";
 @import "partials/buttons";
-
+@import "partials/sprite";
+@import "partials/icons";
+@import "partials/sections-mainpage";
 // Vendor
+
+@import "vendor/bootstrap";
